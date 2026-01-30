@@ -44,4 +44,3 @@ def scrape_website():
     print("Scraped data:", scraped_data)  # Para depuración
     driver.quit()
     return scraped_data
-    return scraped_data
