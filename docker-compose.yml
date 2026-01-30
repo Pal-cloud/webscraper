@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  webscraper-server:
+    build: .
+    container_name: webscraper-server-1
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONPATH=/app
+    command: tail -f /dev/null
