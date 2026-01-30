@@ -17,3 +17,4 @@ Esta rama **docker** contiene la configuración completa de Docker para ejecutar
 - **GeckoDriver v0.35.0** con detección automática de arquitectura
 - **Dependencias del sistema** para entorno headless
 - **Configuración de permisos** y directorios
+
